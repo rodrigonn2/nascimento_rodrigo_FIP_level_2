@@ -1109,6 +1109,11 @@ input, textarea {
 
  @media screen and (min-width: 768px) {
 
+
+  #div_alfredo{
+    margin-top: 2px;
+  }
+
   .controls {
     margin-left: -501px;
     margin-top: 7%;
