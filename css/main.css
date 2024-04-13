@@ -1,5 +1,190 @@
 /*General Styles used on mobile devices*/
 
+
+.h2_internal_loveit {
+  font-family: "bitter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-size: 35px;
+  font-style: normal;
+  color: #202F5B;
+  margin-top: 63px;
+  text-align: center;}
+
+
+
+.p_product_original{
+  font-family: 'Montserrat';
+    color: #202F5B;
+    font-weight: 900;
+    margin-top: 19px;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 80%;
+    border-bottom: solid #C62034 ;
+    padding-bottom: 5px
+}
+
+
+
+.p_product_zero{
+  font-family: 'Montserrat';
+    color: #202F5B;
+    font-weight: 900;
+    margin-top: 19px;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 80%;
+    border-bottom: solid #202F5B ;
+    padding-bottom: 5px
+}
+
+.p_product_free{
+  font-family: 'Montserrat';
+    color: #202F5B;
+    font-weight: 900;
+    margin-top: 19px;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 80%;
+    border-bottom: solid #B5BBC4 ;
+    padding-bottom: 5px
+}
+
+.p_product_orange{
+  font-family: 'Montserrat';
+    color: #202F5B;
+    font-weight: 900;
+    margin-top: 19px;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 80%;
+    border-bottom: solid #FD7813 ;
+    padding-bottom: 5px
+}
+
+.p_product_orange:hover{
+  font-family: 'Montserrat';
+    color: #FD7813;
+    
+}
+
+.p_product_free:hover{
+  font-family: 'Montserrat';
+    color: #B5BBC4
+    
+}
+
+.p_product_zero:hover{
+  font-family: 'Montserrat';
+    color: #8b9be3;
+    
+}
+
+.p_product_original:hover{
+  font-family: 'Montserrat';
+    color: #C62034;
+    
+}
+
+
+
+
+.button_space{
+  margin-top: 4%;
+}
+
+#client-con {
+  margin-bottom: 30px;
+}
+
+#billy_say-con {
+  display: contents;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.fa {
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+
+.billy_say-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  margin-top: 35px;
+}
+
+.billy_say-container img {
+  width: 200px;
+  height: auto;
+  margin-right: 10%;
+  margin-left: 186px;
+  margin-top: -157px;
+  margin-bottom: 50px;
+  animation: fadeIn 1s ease-in-out;
+  text-align: center;
+}
+
+.billy_say-image {
+  width: 80%; 
+  margin-top: -300px;
+  height: auto; 
+}
+
+
+.billy_say-content {
+  flex: 1; 
+  animation: fadeIn 1s ease-in-out;
+}
+
+
+.billy_say-content p {
+  font-size: 14px;
+  text-align: center;
+  line-height: 1.5;
+  margin-bottom: -20px;
+  margin-top: 221px;
+  font-family: 'Montserrat';
+  color: #000;
+  width: 460px;
+  font-weight: 300;
+  margin-left: -144px;
+}
+
+.billy_say-content h3 {
+  font-weight: 900;
+  font-family: "bitter", sans-serif;
+  color: #202F5B;
+  font-size: 17px;
+  width: 282px;
+  margin-left: -62px;
+  margin-top: 39px;
+  text-align: center;
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+
+
+
+
+
+
 #hero-main-container {
   height: 60vh; /* ou qualquer altura desejada */
   overflow: hidden; /* para evitar que a imagem ultrapasse o contêiner */
@@ -82,14 +267,15 @@ text-align: center;
 
 .box_font_text_intro {
   font-family: "bitter", sans-serif;
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 900;
   font-style: normal;
   color: #ffffff;
   animation: intro_text 2s ease-in-out forwards;
   position: absolute;
   z-index: 3;
-  width: 150px;
+  width: 90%;
+  margin-top: 4%;
 }
 
 /*text-above-banner-internals*/
@@ -118,7 +304,7 @@ text-align: center;
   z-index: 3;
   width: 150px;
   MARGIN-TOP: -76PX;
-    margin-left: -218px;
+    margin-left: -10%;
 }
 
 .box_font_btn{
@@ -130,8 +316,8 @@ text-align: center;
   left: 50%;
   z-index: 3;
   width: 150px;
-  MARGIN-TOP: -76PX;
-    margin-left: -218px;
+  MARGIN-TOP: -14%;
+    margin-left: -43%;
     animation: CTA_button_hero 3s ease-in-out forwards;
 }
 
@@ -169,6 +355,29 @@ text-align: center;
   border: solid #FF7F7F;
 }
 
+
+.secondary_button_position {
+  display: inline-block;
+  font-family: "MONTSERRAT", sans-serif;
+  background-color: #fff;
+  border: solid #C62034;
+  color: #C62034;
+  text-align: center;
+  font-weight: 700;
+  font-size: 10px;
+  width: 50%;
+  height: 40px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  margin-left: 23%;
+}
+
+.secondary_button_position:hover {
+  color: #FF7F7F;
+  border: solid #FF7F7F;
+}
+
 .secondary_founders_button {
   display: inline-block;
   font-family: "MONTSERRAT", sans-serif;
@@ -199,9 +408,9 @@ text-align: center;
   background-color: #C62034;
   color: #fff;
   text-align: center;
-  font-size: 13px;
+  font-size: 10px;
   font-weight: 700;
-  width: 100%;
+  width: 80%;
   height: 40px;
   transition: all 0.5s;
   cursor: pointer;
@@ -215,12 +424,64 @@ text-align: center;
   background-color: #FF7F7F
 }
 
+.controls {
+  margin-left: -443px;
+  margin-top: 8%;
+}
 
-/*background_texture*/
-.noise_back{
-  background-image: url(../images/background_hero-main_scale\,w_3559.jpg);
+.next_button {
+  display: inline-block;
+  font-family: "montserrat", sans-serif;
+  background-color: #C62034;
+  color: #fff;
+  text-align: center;
+  font-size: 10px;
+  font-weight: 700;
+  width: 200px;
+  height: 40px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 10px;
+  margin-left: 500px;
+  border: none;
+  margin-bottom: 61px;
+}
+
+.next_button:hover {
+  background-color: #FF7F7F
+}
+
+
+
+
+.previous_button {
+  display: inline-block;
+  font-family: "MONTSERRAT", sans-serif;
+  background-color: #fff;
+  border: solid #C62034;
+  color: #C62034;
+  text-align: center;
+  font-weight: 700;
+  font-size: 10px;
+  width: 200px;
+  height: 40px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
 
 }
+
+.previous_button:hover {
+  color: #FF7F7F;
+  border: solid #FF7F7F;
+}
+
+
+
+
+
+
+
 
 body {
   color: #fff;
@@ -316,7 +577,7 @@ a {
   background-color: #f4f6fb;
   padding: 50px;
   width: 100%;
-  height: 843px;
+  height: 950px;
   margin-top: 80px;
   margin-bottom: 80px;
 }
@@ -398,7 +659,7 @@ span{
   font-family: "bitter", sans-serif;
   font-optical-sizing: auto;
   font-weight: 900;
-  font-size: 38px;
+  font-size: 35px;
   font-style: normal;
   color: #202F5B;
  margin-top: 3px;
@@ -411,8 +672,8 @@ span{
 .box_image_large {
   color: rgb(0, 0, 0);
   border-radius: 0px;
-  margin-top: 40px;
-  margin-bottom:10px;
+  margin-top: 0px;
+  margin-bottom: 10px;
   text-align: center;
   height: 330px;
 }
@@ -421,11 +682,11 @@ span{
 
 
 .box_service {
-  background-color: rgb(185, 182, 182);
+  background-color: rgb(255, 255, 255);
   color: rgb(255, 255, 255);
   border-radius: 0px;
   text-align: center;
-  width: 100%;
+  width: 70%;
   height: 200px;
   transition: 100ms linear; 
 }
@@ -597,6 +858,7 @@ input, textarea {
   color: #fff;
   background-color: #C62034;
   padding: 20px;
+  text-align: center;
 }
 
 .section_about{
@@ -804,7 +1066,10 @@ input, textarea {
 
 
 
+.section-ads{
+  margin-bottom: 60px;
 
+ }
 
 
 .h2_service_2{
@@ -844,6 +1109,220 @@ input, textarea {
 
  @media screen and (min-width: 768px) {
 
+  .controls {
+    margin-left: -501px;
+    margin-top: 7%;
+  }
+
+
+
+  #billy_say-con {
+    display: contents;
+  }
+  
+  button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  .fa {
+    font-size: 30px;
+    margin-top: 20px;
+  }
+  
+  
+  .billy_say-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    width: 890px;
+    margin-top: 50px;
+  }
+  
+  .billy_say-container img {
+    width: 50%;
+    margin-left: -4px;
+    margin-bottom: -30px;
+    margin-top: -10px;
+    height: auto;
+    margin-right: 0px;
+  }
+  
+
+  .billy_say-image {
+    width: 500px; 
+    height: auto; 
+  }
+  
+  
+  .billy_say-content {
+    flex: 1; 
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  
+  .billy_say-content p {
+    font-size: 20px;
+    margin-bottom: 0px;
+    width: 390px;
+    margin-left: -200px;
+    text-align: left;
+    margin-top: 30px;
+  }
+  
+  .billy_say-content h3 {
+    font-weight: 900;
+    font-family: "bitter", sans-serif;
+    color: #202F5B;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: -50%;
+    width: 340px;
+    text-align: left;
+  }
+  
+
+
+
+
+
+
+  .next_button {
+    
+    font-size: 12px;
+    width: 200px;
+    height: 40px;
+    margin: 10px;
+    margin-left: 500px;
+    border: none;
+    margin-bottom: 61px;
+  }
+  
+  .next_button:hover {
+    background-color: #FF7F7F
+  }
+  
+  
+  
+  
+  .previous_button {
+    
+    text-align: center;
+    font-weight: 700;
+    font-size: 13px;
+    width: 200px;
+    height: 40px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  
+  }
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .p_product_original{
+    font-family: 'Montserrat';
+      color: #202F5B;
+      font-weight: 900;
+      margin-top: 40px;
+      margin-bottom: 10px;
+      text-align: center;
+      width: 100%;
+      border-bottom: solid #C62034 ;
+      padding-bottom: 5px
+  }
+  
+  
+  
+  .p_product_zero{
+    font-family: 'Montserrat';
+      color: #202F5B;
+      font-weight: 900;
+      margin-top: 40px;
+      margin-bottom: 10px;
+      text-align: center;
+      width: 100%;
+      border-bottom: solid #202F5B ;
+      padding-bottom: 5px
+  }
+  
+  .p_product_free{
+    font-family: 'Montserrat';
+      color: #202F5B;
+      font-weight: 900;
+      margin-top: 40px;
+      margin-bottom: 10px;
+      text-align: center;
+      width: 100%;
+      border-bottom: solid #B5BBC4 ;
+      padding-bottom: 5px
+  }
+  
+  .p_product_orange{
+    font-family: 'Montserrat';
+      color: #202F5B;
+      font-weight: 900;
+      margin-top: 40px;
+      margin-bottom: 10px;
+      text-align: center;
+      width: 100%;
+      border-bottom: solid #FD7813 ;
+      padding-bottom: 5px
+  }
+  
+  .p_product_orange:hover{
+    font-family: 'Montserrat';
+      color: #FD7813;
+      
+  }
+  
+  .p_product_free:hover{
+    font-family: 'Montserrat';
+      color: #B5BBC4
+      
+  }
+  
+  .p_product_zero:hover{
+    font-family: 'Montserrat';
+      color: #8b9be3;
+      
+  }
+  
+  .p_product_original:hover{
+    font-family: 'Montserrat';
+      color: #C62034;
+      
+  }
+  
+  
+  
+  
+  .button_space{
+    margin-top: 4%;
+  }
+
+
+
+
+
+
+
+
+
   #burger-con {
     position: sticky; 
     width: auto;
@@ -852,8 +1331,16 @@ input, textarea {
     left: auto;
       display: block;
       font-size: 14px;
-      padding-left: 38%;
+      padding-left: 35%;
+      margin-left: -4%;
       position: fixed;
+
+  }
+
+
+
+  .nav-active {
+    width: 50%;
 
   }
 
@@ -919,8 +1406,13 @@ width: 202px
   .h2_internal{
 
     font-size: 40px;
-    font-style: normal;
-    color: #202F5B;
+   margin-top: 10px;
+   text-align: left;
+  }
+
+  .h2_internal_loveit{
+
+  font-size: 40px;
    margin-top: 10px;
    text-align: left;
   }
@@ -1079,7 +1571,7 @@ text-align: center;
     background-color: #f4f6fb;
     padding: 50px;
     width: 100%;
-    height: 600px;
+    height: 660px;
     margin-top: -135px;
     margin-bottom: 80px;
     padding: 70px;
@@ -1091,6 +1583,14 @@ text-align: center;
     margin-top: -30px;
   }
 
+
+
+  .secondary_button_position {
+    width: 280px;
+    font-size: 12px;
+    height: 50px;
+    margin-left: -6%;
+   }
   
 
   .secondary_button {
@@ -1336,13 +1836,21 @@ text-align: center;
     .box_font_text_intro {
       font-size: 48px;
       font-weight: 1000;
-      min-width: 90%;
+      width: 90%;
       margin-top: -22%;
       margin-left: 10px;
       z-index: 2;
     }
 
-   
+    .p_description_left_second_hightlight {
+      font-size: 20px;
+      margin-top: 30px;
+      text-align: left;
+      width: 319px;
+      line-height: 31px;
+      margin-left: -5%;
+      font-weight: 300;
+    }
 
 
     @keyframes intro_text {
@@ -1445,13 +1953,66 @@ text-align: center;
 
 }
 
- 
+.h2_internal_loveit{
+
+  font-size: 40px;
+   margin-top: 60px;
+
+  }
 
 
 
 
 
 @media screen and (min-width: 1200px) {
+
+
+  .controls {
+    margin-left: -523px;
+
+  }
+
+
+  .billy_say-content h3 {
+
+    margin-left: 5%;
+
+
+  }
+  
+
+  .billy_say-container img {
+    width: 890px;
+    margin-left: -4px;
+    margin-bottom: -30px;
+    margin-top: -10px;
+    height: auto;
+
+  }
+
+  .billy_say-content p {
+    font-size: 20px;
+    margin-bottom: 0px;
+    width: 680px;
+    margin-left: 30px;
+    text-align: left;
+    margin-top: 30px;
+  }
+
+    
+  .billy_say-container {
+    width: 1000px;
+    margin-top: 50px;
+  }
+
+
+  .h2_internal_loveit{
+
+    font-size: 60px;
+
+
+    }
+  
 
 
   .social_media{
@@ -1481,7 +2042,7 @@ text-align: center;
 
   #burger-con {
 
-    padding-left: 414px;
+    padding-left: 21%;
 
  }
 
@@ -1490,8 +2051,8 @@ text-align: center;
     left: 50%;
     z-index: 3;
     width: 150px;
-    MARGIN-TOP: -136PX;
-      margin-left: -580px;
+    MARGIN-TOP: -14%;
+    margin-left: -580px;
   }
 
   .name_founders{
@@ -1685,8 +2246,8 @@ text-align: center;
         font-size: 60px;
         left: 50%;
         z-index: 3;
-        width: 310px;
-      margin-top: -220PX;
+        width: 489px;
+        margin-top: -24%;
         margin-left: -580px;
     }
     
