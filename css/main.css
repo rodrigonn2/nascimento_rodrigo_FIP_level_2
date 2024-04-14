@@ -260,22 +260,6 @@ button {
 
 
 
-
-
-
-
-#hero-main-container {
-  height: 60vh; /* ou qualquer altura desejada */
-  overflow: hidden; /* para evitar que a imagem ultrapasse o contêiner */
-  position: relative; /* para garantir que o contêiner possa conter elementos posicionados absolutamente dentro dele */
-}
-
-#hero-main {
-  width: 100%; /* para garantir que a imagem ocupe toda a largura do contêiner */
-  height: 100%; /* para garantir que a imagem ocupe toda a altura do contêiner */
-  object-fit: cover; /* para garantir que a imagem preencha todo o contêiner, mantendo a proporção */
-}
-
 .policy{
   margin-top: 40px;
   font-size: 12px;
@@ -355,7 +339,8 @@ margin-left: 10%;
   position: absolute;
   z-index: 3;
   width: 90%;
-  margin-top: 4%;
+  margin-top: 12%;
+  margin-left: 7%;
 }
 
 /*text-above-banner-internals*/
@@ -1087,18 +1072,18 @@ span{
 
 @keyframes intro_text {
   0% {
-    left: -500px;
+
     opacity: 0;
     top: 60px;
   }
   
   75% {
-    left: 30px;
+
     opacity: 0.8;
     top: 60px;
   }
   100% {
-    left: 30px;
+
     opacity: 1;
     top: 60px;
   }
