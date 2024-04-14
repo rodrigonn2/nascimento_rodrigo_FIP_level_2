@@ -1,5 +1,78 @@
 /*General Styles used on mobile devices*/
 
+input[type="submit"] {
+  width: 100%;
+  height: 40px;
+  background-color: #C62034;
+  font-family: "montserrat", sans-serif;
+  color: #ffffff;
+  font-weight: bold;
+  border-radius: 0px;
+  margin-top: 210px;
+  margin-bottom: 30px;
+  margin-left: 9px;
+  border: none;
+
+}
+
+input[type="submit"]:hover {
+ 
+  background-color: #FF7F7F;
+
+}
+
+textarea {
+  width: 100%;
+  height: 250px;
+  margin-left: 10px;
+  color: #000;
+  margin-top: 5px;
+  font-size: 13px;
+  margin-bottom: -160PX;
+  border: #202F5B solid 1px;}
+
+
+#box_contact_form {
+
+  padding: 4px 0 0 0;
+  margin-top:-27px;
+  margin-left:-8px;
+  width:100%
+
+}
+
+input[type="text"] {
+  width: 100%;
+  height: 40px;
+  background-color: #ffffff;
+  color: #000;
+  font-family: "montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+  border-radius: 0px;
+  margin-top: 5px;
+  margin-bottom: 30px;
+  margin-left: 10px;
+  border:#202F5B solid 1px;}
+
+
+.form_organization{
+  width: 90%;
+  
+  }
+
+  .label_contact{
+    text-align: left;
+    font-size: 15px;
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
+    size: 12px;
+    color: #202F5B;
+    font-weight: 900;
+    MARGIN-LEFT: 9PX;
+  
+  }
+
 
 .h2_internal_loveit {
   font-family: "bitter", sans-serif;
@@ -14,13 +87,14 @@
 
 
 .p_product_original{
-  font-family: 'Montserrat';
+  font-family: "Montserrat", sans-serif;
     color: #202F5B;
     font-weight: 900;
+    font-size: 12px;
     margin-top: 19px;
     margin-bottom: 10px;
     text-align: center;
-    width: 80%;
+    width: 100%;
     border-bottom: solid #C62034 ;
     padding-bottom: 5px
 }
@@ -30,59 +104,64 @@
 .p_product_zero{
   font-family: 'Montserrat';
     color: #202F5B;
+    font-size: 12px;
     font-weight: 900;
     margin-top: 19px;
     margin-bottom: 10px;
     text-align: center;
-    width: 80%;
+    width: 100%;
     border-bottom: solid #202F5B ;
     padding-bottom: 5px
 }
 
 .p_product_free{
-  font-family: 'Montserrat';
+  font-family: "Montserrat", sans-serif;
     color: #202F5B;
     font-weight: 900;
+    font-size: 12px;
     margin-top: 19px;
     margin-bottom: 10px;
     text-align: center;
-    width: 80%;
+    width: 100%;
     border-bottom: solid #B5BBC4 ;
     padding-bottom: 5px
 }
 
 .p_product_orange{
-  font-family: 'Montserrat';
+  font-family: "Montserrat", sans-serif;
     color: #202F5B;
     font-weight: 900;
+    font-size: 12px;
     margin-top: 19px;
     margin-bottom: 10px;
     text-align: center;
-    width: 80%;
+    width: 100%;
     border-bottom: solid #FD7813 ;
     padding-bottom: 5px
 }
 
 .p_product_orange:hover{
-  font-family: 'Montserrat';
+  font-family: "Montserrat", sans-serif;
     color: #FD7813;
     
 }
 
+
+
 .p_product_free:hover{
-  font-family: 'Montserrat';
+  font-family: "Montserrat", sans-serif;
     color: #B5BBC4
     
 }
 
 .p_product_zero:hover{
-  font-family: 'Montserrat';
+  font-family: "Montserrat", sans-serif;
     color: #8b9be3;
     
 }
 
 .p_product_original:hover{
-  font-family: 'Montserrat';
+  font-family: "Montserrat", sans-serif;
     color: #C62034;
     
 }
@@ -135,7 +214,7 @@ button {
 
 .billy_say-image {
   width: 80%; 
-  margin-top: -300px;
+
   height: auto; 
 }
 
@@ -152,7 +231,7 @@ button {
   line-height: 1.5;
   margin-bottom: -20px;
   margin-top: 221px;
-  font-family: 'Montserrat';
+  font-family: "Montserrat", sans-serif;
   color: #000;
   width: 460px;
   font-weight: 300;
@@ -283,29 +362,29 @@ margin-left: 10%;
 
 .box_font_text_intro_internal {
   font-family: "bitter", sans-serif;
-  font-size: 23px;
-  font-weight: 700;
+  font-size: 35px;
+  font-weight: 900;
   font-style: normal;
   color: #ffffff;
   position: absolute;
-  left: 50%;
+
   z-index: 3;
-  width: 150px;
-  MARGIN-TOP: -51PX;
-  margin-left: -218px;
+  width: 260px;
+  MARGIN-TOP: -13%;
+  margin-left: 3%;
 }
 
 .box_font_breadcrumb{
   font-family: "montserrat", sans-serif;
-  font-size: 12px;
-  font-style: normal;
-  color: #ffffff;
-  position: absolute;
-  left: 50%;
-  z-index: 3;
-  width: 150px;
-  MARGIN-TOP: -76PX;
-    margin-left: -10%;
+    font-size: 12px;
+    font-style: normal;
+    color: #ffffff;
+    position: absolute;
+
+    z-index: 3;
+    width: 150px;
+    MARGIN-TOP: -18%;
+    margin-left: 3%;
 }
 
 .box_font_btn{
@@ -411,7 +490,7 @@ margin-left: 10%;
   text-align: center;
   font-size: 10px;
   font-weight: 700;
-  width: 80%;
+  width: 100%;
   height: 40px;
   transition: all 0.5s;
   cursor: pointer;
@@ -578,10 +657,12 @@ a {
   background-color: #f4f6fb;
   padding: 50px;
   width: 100%;
-  height: 950px;
+  height: 1000px;
   margin-top: 80px;
   margin-bottom: 80px;
 }
+
+
 
 
 .section_why{
@@ -605,6 +686,13 @@ a {
   text-align:left;
 }
 
+.video_position{
+  position: relative;
+}
+
+
+
+
 
 .h2_side_text {
   font-family: "bitter", sans-serif;
@@ -613,7 +701,7 @@ a {
   font-size: 35px;
   font-style: normal;
   color: #202F5B;
-  margin-top: -77px;
+  margin-top: -83px;
   text-align: center;
 }
 
@@ -687,9 +775,9 @@ span{
   color: rgb(255, 255, 255);
   border-radius: 0px;
   text-align: center;
-  width: 70%;
-  height: 200px;
+  width: 100%;
   transition: 100ms linear; 
+  margin-bottom: 20px;
 }
 
 
@@ -713,11 +801,7 @@ span{
 
 
 
-input, textarea {
-  display: block;
-  margin: 0;
-  padding: 0;
-}
+
 
 
 .box_images_products {
@@ -1114,6 +1198,64 @@ input, textarea {
  @media screen and (min-width: 768px) {
 
 
+  .video_position{
+
+    margin-top: 128px;
+  }
+
+
+  
+input[type="submit"] {
+  width: 100%;
+  height: 40px;
+  background-color: #C62034;
+  font-family: "montserrat", sans-serif;
+  color: #ffffff;
+  font-weight: bold;
+  border-radius: 0px;
+  margin-top: 210px;
+  margin-bottom: 30px;
+  margin-left: 9px;
+  border: none;
+
+}
+
+input[type="submit"]:hover {
+ 
+  background-color: #FF7F7F;
+
+}
+
+textarea {
+  width: 100%;
+  height: 250px;
+}
+
+
+#box_contact_form {
+  width:700px;
+
+}
+
+input[type="text"] {
+  width: 700px;
+  height: 40px;
+  margin-top: 5px;
+  margin-bottom: 30px;
+  margin-left: 10px;
+  border:#202F5B solid 1px;}
+
+
+.form_organization{
+  width: 700px;
+  
+  }
+
+  .video_size {
+    width: 590px;
+    height: 340px;
+  }
+
   .founders_div{
     width: 100%;
     margin-left: -27%;
@@ -1250,84 +1392,49 @@ input, textarea {
 
 
   .p_product_original{
-    font-family: 'Montserrat';
-      color: #202F5B;
-      font-weight: 900;
+    
+      
       margin-top: 40px;
       margin-bottom: 10px;
-      text-align: center;
       width: 100%;
-      border-bottom: solid #C62034 ;
+      font-size: 13px;
+ 
       padding-bottom: 5px
   }
   
   
   
   .p_product_zero{
-    font-family: 'Montserrat';
-      color: #202F5B;
-      font-weight: 900;
-      margin-top: 40px;
-      margin-bottom: 10px;
-      text-align: center;
-      width: 100%;
-      border-bottom: solid #202F5B ;
-      padding-bottom: 5px
+    margin-top: 40px;
+    margin-bottom: 10px;
+    width: 100%;
+    font-size: 13px;
+    padding-bottom: 5px
   }
   
   .p_product_free{
-    font-family: 'Montserrat';
-      color: #202F5B;
-      font-weight: 900;
-      margin-top: 40px;
-      margin-bottom: 10px;
-      text-align: center;
-      width: 100%;
-      border-bottom: solid #B5BBC4 ;
-      padding-bottom: 5px
+    margin-top: 40px;
+    margin-bottom: 10px;
+    width: 100%;
+    font-size: 13px;
+    padding-bottom: 5px
   }
   
   .p_product_orange{
-    font-family: 'Montserrat';
-      color: #202F5B;
-      font-weight: 900;
-      margin-top: 40px;
-      margin-bottom: 10px;
-      text-align: center;
-      width: 100%;
-      border-bottom: solid #FD7813 ;
-      padding-bottom: 5px
+    margin-top: 40px;
+    margin-bottom: 10px;
+    width: 100%;
+    font-size: 13px;
+    padding-bottom: 5px
   }
   
-  .p_product_orange:hover{
-    font-family: 'Montserrat';
-      color: #FD7813;
-      
-  }
-  
-  .p_product_free:hover{
-    font-family: 'Montserrat';
-      color: #B5BBC4
-      
-  }
-  
-  .p_product_zero:hover{
-    font-family: 'Montserrat';
-      color: #8b9be3;
-      
-  }
-  
-  .p_product_original:hover{
-    font-family: 'Montserrat';
-      color: #C62034;
-      
-  }
-  
+
   
   
   
   .button_space{
-    margin-top: 4%;
+    margin-top: 14px;
+    margin-left: 0px;
   }
 
 
@@ -1462,11 +1569,12 @@ width: 202px
     
     font-size: 35px;
    
-    left: 50%;
+    left: 21%;
     z-index: 3;
     width: 600px;
     MARGIN-TOP: -101PX;
-    margin-left: -338px;
+    margin-left: -19%;
+
   }
   
   .box_font_breadcrumb{
@@ -1476,8 +1584,8 @@ width: 202px
     left: 50%;
     z-index: 3;
     width: 300px;
-    MARGIN-TOP: -137PX;
-      margin-left: -338px;
+    MARGIN-TOP: -15%;
+      margin-left: -48%;
   }
 
 
@@ -1497,8 +1605,8 @@ width: 202px
 .box_service {
 
   text-align: center;
-  width: 150px;
-  height: 250px;
+  width: 100%;
+  height: 160px;
   transition: 100ms linear; 
 }
 
@@ -1578,13 +1686,12 @@ text-align: center;
     font-size: 12px;
     height: 50px;
     margin-top: 20px;
-    width: 150px;
+    width: 100%;
   }
 
 
 
   .section_products_back{
-    background-color: #f4f6fb;
     padding: 50px;
     width: 100%;
     height: 660px;
@@ -1829,6 +1936,15 @@ text-align: center;
     height: 80px;
     margin-top: 40px;
  }
+
+ .box_image_video_large{
+  color: rgb(0, 0, 0);
+    border-radius: 0px;
+    margin-top: 10px;
+    margin-bottom: -130px;
+    text-align: center;
+    height: 500px;
+ }
  
 
 
@@ -1836,7 +1952,10 @@ text-align: center;
   position: inherit;
 }
 
+.video_position{
 
+  margin-top: 0px;
+}
 
 
 
@@ -1983,7 +2102,15 @@ text-align: center;
 @media screen and (min-width: 1200px) {
 
 
+  .button_space{
+    margin-top: 4%;
+    margin-left: 0px;
+  }
 
+  .video_position{
+
+    margin-top: 128px;
+  }
 
 
   .controls {
@@ -2016,12 +2143,9 @@ text-align: center;
   }
 
   .billy_say-content p {
-    font-size: 20px;
-    margin-bottom: 0px;
     width: 680px;
     margin-left: 30px;
-    text-align: left;
-    margin-top: 30px;
+
   }
 
     
